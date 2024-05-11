@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  color: white;
+}
+
+body{
+  background: #2C2B3D;
+  min-height: 100vh;
+}
+
+section{
+  width: 1000px;
+  margin: 5px auto 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+a{
+  text-decoration: none;
+
+}
+
+a:hover{
+  font-weight: bold;
+}
