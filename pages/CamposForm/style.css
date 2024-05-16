@@ -6,11 +6,11 @@
 }
 
 body{
-  
   width: 739px;
   margin: auto;
   background-color: #d5d2d2;
 }
+
 body::before{
   content: '';
   width: 100%;
@@ -25,7 +25,6 @@ body::before{
 }
 header{
   width: 319px;
-
   margin-top: 74px;
 }
 
