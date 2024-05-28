@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #444;
+}
+nav a {
+  color: #fff;
+  padding: 1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+nav a:hover {
+  background-color: #555;
+}
+.container {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+.section {
+  margin-bottom: 2rem;
+}
+.section h2 {
+  border-bottom: 2px solid #333;
+  padding-bottom: 0.5rem;
+}
+.portfolio, .projects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.portfolio-item, .project-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  flex: 1 1 calc(33.333% - 2rem);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.portfolio-item img, .project-item img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .portfolio-item, .project-item {
+      flex: 1 1 calc(50% - 2rem);
+  }
+}
+@media (max-width: 480px) {
+  .portfolio-item, .project-item {
+      flex: 1 1 100%;
+  }
+}
