@@ -143,11 +143,15 @@ main .conteudo {
   display: flex;
   gap: 1rem;
   margin-top: 3.2rem;
-  max-width: 38.4rem;
+  width: 38.2rem;
+  
 }
 
 .sidebar section img { /* Adjust as needed */
   width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  display: block;
 }
 
 .sidebar section h3 {
