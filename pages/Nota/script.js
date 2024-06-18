@@ -13,6 +13,8 @@ function calcularMedia(notas) {
   return somaNotas / notas.length
 }
 
+console.log(alunos['João'].length)
+
 for (const aluno in alunos) {
   const media = calcularMedia(alunos[aluno])
 
@@ -22,6 +24,8 @@ for (const aluno in alunos) {
     ${result}
   `)
 }
+
+
 
 
 
