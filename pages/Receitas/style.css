@@ -11,10 +11,11 @@
   color: #573A37
 }
 
-body{
-  background-color: #573824;
-  background-image: url(./assets/main-image.png);
+body {
+  background: linear-gradient(rgba(87, 56, 36, 0.583), rgba(87, 56, 36, 0.583)), url(./assets/main-image.png);
   background-size: cover;
+
+
 }
 
 main{
@@ -22,7 +23,7 @@ main{
   padding: 24px;
   background-color: #F0E8C2;
   border-radius: 24px;
-  margin: 48px auto;
+  margin: 48px auto 28px;
 }
 
 main img{
@@ -62,4 +63,14 @@ section p + p{
 
 ul{
   padding-left: 22px;
+}
+
+footer{
+  color: #F0E8C2;
+  text-align: center;
+  padding-bottom: 24px;
+}
+
+footer img{
+  vertical-align: middle;
 }
