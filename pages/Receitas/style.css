@@ -2,7 +2,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
+}
+
+:root{
   font-family: "Alice", serif;
+  line-height: 150%;
+  color: #573A37
 }
 
 body{
@@ -27,21 +33,33 @@ main img{
 h1, h2{
   color: #291B1A;
   font-weight: 400;
+  margin-bottom: 4px;
 
 }
 
 h1{
   line-height: 140%;
   font-size: 40px;
-  
+   
 }
 
 h2{
   font-size: 24px;
-  line-height: 150%;
+
 }
 
-p{
-  color: #573A37 ;
+section{
+  padding: 24px 24px 0 24px;
 }
 
+section p + p{
+  margin-top: 12px;
+}
+
+#preparation{
+  padding-bottom: 24px;
+}
+
+ul{
+  padding-left: 22px;
+}
